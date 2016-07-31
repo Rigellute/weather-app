@@ -4,7 +4,7 @@ export function buildQuery(resource) {
 
     const key = 'f385fe2f-19d0-4bba-9e57-f14feffafb74';
 
-    const baseUrl = 'http://datapoint.metoffice.gov.uk/public/data/';
+    const baseUrl = 'https://datapoint.metoffice.gov.uk/public/data/';
 
     const param = ~resource.indexOf('?') ? '&key=' : '?key=';
 
