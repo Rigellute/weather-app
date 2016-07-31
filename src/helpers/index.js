@@ -25,7 +25,7 @@ export function buildFlickr(lat, lon) {
     // https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
     const key = '&api_key=9880f2212f49d2289601fb002f87a718';
 
-    const baseUrl = 'https://api.flickr.com/services/rest/';
+    const baseUrl = 'http://api.flickr.com/services/rest/';
     const findIdMethod = `?method=flickr.places.findByLatLon&lat=${lat}&lon=${lon}`;
     const format = `&format=json&nojsoncallback=1`;
     const formatAndKey = format + key;
