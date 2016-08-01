@@ -84,7 +84,7 @@ export default class App extends Component {
                 key={i}
                 label={ moment(day.value).format('dddd')}
             >
-
+                
                 <div className='flex-container'>
 
                     { day.Rep.map((data, j) => {
